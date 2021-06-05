@@ -1,4 +1,4 @@
-import express, {Express} from "express"
+import express, { Express } from "express"
 import cors from "cors"
 import routerClasses from "./routes/classes/index"
 import routerStudents from "./routes/students"
