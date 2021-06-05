@@ -7,14 +7,14 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3003/students/create 
+POST http://localhost:3001/students/create 
 Content-Type: application/json
 
 {   
     "class_id": 1,
-    "nome":"Jorge",
-    "email":"jorge@gmail.com",
-    "data_nasc":"2021-05-02"
+    "nome":"Jorgeee",
+    "email":"jorgeee@gmail.com",
+    "data_nasc":"2021-06-02"
 }
 
 ###

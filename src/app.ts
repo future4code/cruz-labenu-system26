@@ -1,4 +1,4 @@
-import express, {Express} from "express"
+import express, { Express } from "express"
 import cors from "cors"
 import routerClasses from "./routes/classes/index"
 import routerStudents from "./routes/students"
@@ -12,7 +12,7 @@ app.use("/classes", routerClasses)
 app.use("/students", routerStudents)
 app.use("/teacher", routerTeachers)
 
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 export default app

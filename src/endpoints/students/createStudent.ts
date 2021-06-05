@@ -13,9 +13,10 @@ export default async function createStudent(
         await connection("student")
             .insert({ class_id, nome, email, data_nasc })
 
-        res.status(201).end()
+        res.status(201).send("deu certo")
 
     } catch (error) {
-        res.status(500).send()
+        console.log(error)
+        res.status(500).send("deu errado")
     }
 }
