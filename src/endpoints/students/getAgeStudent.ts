@@ -1,6 +1,6 @@
-import {Request, Response} from "express"
+import { Request, Response } from "express"
 
-export default async function getAgeStudent (
+export default async function getAgeStudent(
     req: Request,
     res: Response
 ) {
