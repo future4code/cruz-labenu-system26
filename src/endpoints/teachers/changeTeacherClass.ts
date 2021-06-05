@@ -1,6 +1,6 @@
-import {Request, Response} from "express"
+import { Request, Response } from "express"
 
-export default async function changeTeacherClass (
+export default async function changeTeacherClass(
     req: Request,
     res: Response
 ) {
