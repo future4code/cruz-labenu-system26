@@ -2,8 +2,13 @@ GET http://localhost:3003/students/age/:id
 
 ###
 
-PUT http://localhost:3003/students/change-class/:id 
+PUT http://localhost:3001/students/change-class/1 
 Content-Type: application/json
+
+{   
+    "classname": 2
+    
+}
 
 ###
 
