@@ -1,16 +1,30 @@
-GET http://localhost:3003/students
+GET http://localhost:3003/students/age/:id
 
 ###
 
-PUT http://localhost:3003/student
+PUT http://localhost:3003/students/change-class/:id 
 Content-Type: application/json
 
-{
-    "name":"Juggernaut",
-    "gender":"MALE",
-    "description":"O irmao do Prof X!"
+###
+
+POST http://localhost:3003/students/create 
+Content-Type: application/json
+
+{   
+    "class_id": 1,
+    "nome":"Jorge",
+    "email":"jorge@gmail.com",
+    "data_nasc":"2021-05-02"
 }
 
 ###
 
-DELETE http://localhost:3003/character/5
+PUT http://localhost:3003/teacher/change-class/:id 
+Content-Type: application/json
+
+###
+POST http://localhost:3003/teacher/create 
+
+###
+
+POST http://localhost:3003/classes/create 

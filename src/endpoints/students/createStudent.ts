@@ -6,12 +6,12 @@ export default async function createStudent(
     res: Response
 ): Promise<void> {
     try {
-        const { nome, email, data_nasc } = req.body
+        const { class_id, nome, email, data_nasc } = req.body
 
         console.log(req.headers["content-type"])
 
         await connection("student")
-            .insert({ nome, email, data_nasc })
+            .insert({ class_id, nome, email, data_nasc })
 
         res.status(201).end()
 
