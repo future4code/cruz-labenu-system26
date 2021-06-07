@@ -1,33 +1,53 @@
-## LabenuSystem:
+<h1 align="center">Welcome to Labenu System 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/future4code/cruz-labenu-system26#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/future4code/cruz-labenu-system26/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/future4code/cruz-labenu-system26/blob/master/LICENSE" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/github/license/future4code/Labenu System" />
+  </a>
+</p>
 
-Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização. 
+> Organização básica de três grupos  da Labenu (estudantes, docentes e turmas).
 
-Ele deve possuir, ao menos, as 3 entidades importantes:
+### 🏠 [Homepage](https://github.com/future4code/cruz-labenu-system26#readme)
 
-1. Estudantes 
+### [Documentation](https://documenter.getpostman.com/view/3533074/TzY68tXq)
 
-    Representa estudantes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e os principais hobbies dele. 
+## Install
 
-2. Docente
+```sh
+npm install
+```
 
-    Representa docentes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e todas as especialidades dele. Há 7 especialidades: React, Redux, CSS, Testes, Typescript, Programação Orientada a Objetos e Backend
+## Usage
 
-3. Turma
+```sh
+npm run start
+```
 
-    Toda turma é composta das seguintes características: id, nome, data de início, data de término, lista de professores responsáveis, uma lista de alunos e módulo atual em que a turma está.
+## Database
+This project runs on MySQL.
+You need to create a local database and create a .env file with the database's info (host, username, password and schema).
+Use the 'script-base.sql' file to create the tables and to add dummy data.
 
-    O módulo pode assumir os valores de 1 a 7 ou `undefined`, indicando que as aulas dessa turma ainda não começaram. Para esse exercício, vamos considerar que existam dois tipos de turma: integral ou noturna. Há uma restrição para o nome das turmas noturnas: tem que terminar com `-na-night`.
+```DB_HOST= 
+DB_USER=
+DB_SCHEMA=
+DB_PASSWORD=
+```
 
-As funcionalidades básicas são:
+## Author
 
-→ Criar estudante;
+👤 **Madu Auler e Milena Cacau**
 
-→ Criar docente;
+* Github: [@MaduAuler](https://github.com/MaduAuler) | [@milenacacau](https://github.com/milenacacau)
 
-→ Criar turma;
 
-→ Adicionar estudante na turma;
+## 📝 License
 
-→ Adicionar docente na turma;
-
-→ Pegar a idade de algum estudante a partir do id
+Copyright © 2021 Madu Auler e Milena Cacau
