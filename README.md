@@ -1,22 +1,4 @@
-<h1 align="center">Welcome to Labenu System 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/future4code/cruz-labenu-system26#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/future4code/cruz-labenu-system26/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/future4code/cruz-labenu-system26/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/future4code/Labenu System" />
-  </a>
-</p>
-
-> Organização básica de três grupos  da Labenu (estudantes, docentes e turmas).
-
-### 🏠 [Homepage](https://github.com/future4code/cruz-labenu-system26#readme)
-
-### [Documentation](https://documenter.getpostman.com/view/3533074/TzY68tXq)
+### [API Documentation](https://documenter.getpostman.com/view/3533074/TzY68tXq)
 
 ## Install
 
