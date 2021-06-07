@@ -25,11 +25,7 @@ DB_PASSWORD=
 
 ## Author
 
-👤 **Madu Auler e Milena Cacau**
+**Madu Auler e Milena Cacau**
 
 * Github: [@MaduAuler](https://github.com/MaduAuler) | [@milenacacau](https://github.com/milenacacau)
 
-
-## 📝 License
-
-Copyright © 2021 Madu Auler e Milena Cacau
