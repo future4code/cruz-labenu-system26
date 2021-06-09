@@ -1,33 +1,31 @@
-## LabenuSystem:
+### [API Documentation](https://documenter.getpostman.com/view/3533074/TzY68tXq)
 
-Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização. 
+## Install
 
-Ele deve possuir, ao menos, as 3 entidades importantes:
+```sh
+npm install
+```
 
-1. Estudantes 
+## Usage
 
-    Representa estudantes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e os principais hobbies dele. 
+```sh
+npm run start
+```
 
-2. Docente
+## Database
+This project runs on MySQL.
+You need to create a local database and create a .env file with the database's info (host, username, password and schema).
+Use the 'script-base.sql' file to create the tables and to add dummy data.
 
-    Representa docentes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e todas as especialidades dele. Há 7 especialidades: React, Redux, CSS, Testes, Typescript, Programação Orientada a Objetos e Backend
+```DB_HOST= 
+DB_USER=
+DB_SCHEMA=
+DB_PASSWORD=
+```
 
-3. Turma
+## Author
 
-    Toda turma é composta das seguintes características: id, nome, data de início, data de término, lista de professores responsáveis, uma lista de alunos e módulo atual em que a turma está.
+**Madu Auler e Milena Cacau**
 
-    O módulo pode assumir os valores de 1 a 7 ou `undefined`, indicando que as aulas dessa turma ainda não começaram. Para esse exercício, vamos considerar que existam dois tipos de turma: integral ou noturna. Há uma restrição para o nome das turmas noturnas: tem que terminar com `-na-night`.
+* Github: [@MaduAuler](https://github.com/MaduAuler) | [@milenacacau](https://github.com/milenacacau)
 
-As funcionalidades básicas são:
-
-→ Criar estudante;
-
-→ Criar docente;
-
-→ Criar turma;
-
-→ Adicionar estudante na turma;
-
-→ Adicionar docente na turma;
-
-→ Pegar a idade de algum estudante a partir do id
